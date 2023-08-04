@@ -1,0 +1,10 @@
+spring:
+  redis:
+    hostName: 10.15.199.17
+    port: 6379
+    password: 123456aA@
+  rabbitmq:
+    host: 10.15.199.17
+    port: 5672
+    username: admin
+    password: 123456aA@

@@ -1,0 +1,17 @@
+spring:
+  profiles:
+    active: dev
+timeoutAsyncResponse: 15000
+nodeName: apigw-rest
+server:
+  servlet:
+    context-path: /api
+application:
+  threadpool:
+    coreSize: 10
+    maxSize: 20
+    queueCapacity: 1000
+#logging:
+#  level:
+#    root: ERROR
+#    org.springframework: DEBUG
